@@ -25,31 +25,64 @@
     .row.mt-5
       .col-12
         img(src='@/assets/curso/temas/t1/img-2.svg', alt='img2')
+        .mt-5
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           h2.mb-0 Según el Boletín Científico de las Ciencias Económico Administrativas del ICEA (Cruz García, 2019):  
         .col-lg-8
-          .bloque-texto-a__texto.p-4
+          .bloque-texto-a.color-acento-contenido__texto.p-4
             p ‘Las fuentes de información son instrumentos para el conocimiento, acceso y búsqueda de la información, su objetivo principal es el de buscar, fijar y difundir la fuente de información implícita en cualquier soporte físico, estas se pueden catalogar desde diferentes perspectivas, sin embargo, cada autor puede elaborar su propia clasificación dependiendo su grado de información. De acuerdo con el grado de información que proporcionan, las fuentes de información se dividen en primarias, secundarias y terciarias; esta división se utiliza generalmente en el ámbito académico.’ (p.57)
             
     p.mb-5 Las fuentes de información también son una herramienta para el razonamiento, análisis, búsqueda y entrada de información, como punto de partida para generación de hipótesis, conclusiones, informes, que pueden llevar a la solución de problemas o exploración de respuestas organizacionales. La selección de las mismas dependerá de la disponibilidad y el acceso de la información. 
     p.mb-5 Esto requiere un proceso objetivo y consecuente con los resultados que se estiman obtener. Es por ello necesario considerar sus características para lograr la mayor adaptación en los resultados. 
 
-    h3.text-center Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
+    h5.text-center Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
     .row.mt-5
       .col-12
-        img(src='@/assets/curso/temas/t1/caracteristicas.svg')
+        img(src='@/assets/curso/temas/t1/caracteristicas.svg' alt='caracteristicas')
 
     Separador.mb-5
     
     .titulo-segundo.color-secundario.mb-5
-      h2 1.1  Título de segundo nivel, 24pt
-
+      h2 1.1 Información primaria
     .row.mt-5
       .col-12
-        img(src='@/assets/curso/temas/t1/infoPrimaria.svg')
+        img(src='@/assets/curso/temas/t1/infoPrimaria.svg' alt='infoPrimaria')
+    .row.mt-5
+      .col-12
+        img(src='@/assets/curso/temas/t1/img-3.svg' alt='img-3')
+    .row.mt-5
+        h4.text-center Para reunir datos primarios, es importante establecer tres elementos: identificar los métodos e instrumentos de investigación, elaborar un plan de muestreo y definir las técnicas para establecer contacto con la muestra.
+    .row.mt-5
+        .col-12 
+        img(src='@/assets/curso/temas/t1/img-4.svg' alt='img-4')
+    .row.mt-5
+    .cajon-b.color-secundario.p-3.mb-5
+      br
+      br
+      p.mb-0 Cuando se inicia la selección de las fuentes primarias que serán utilizadas como base en el estudio de investigación, es recomendable responder a los siguientes interrogantes, que darán una mayor orientación, enfoque y precisión al estudio.
+      br
+      br
+      br
+      br
+      |✔	¿La fuente seleccionada está relacionada con el objeto de estudio? <br/>
+      |✔	¿Cómo? <br/>
+      |✔	¿Su aporte es relevante? <br/>
+      |✔	¿La fuente está actualizada? <br/>
+      |✔	¿Contribuye a que el desarrollo del estudio sea rápido?<br/>
+      |✔	¿Es objetiva?<br/>
+      |✔	<b>¿Proporciona información abundante?</b><br/>
+
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Monografías")
+        .col-md-6.mb-4.mb-md-0
+          p Son documentos de un tema específico, en la cual se desarrolla en función de la perspectiva del autor. Es muy útil por el análisis e integración que hacen sobre el tema, debido a que es abordado de manera integral. La monografía facilita la recolección de la información de una manera amplia y con gran cobertura para profundizar en el contenido.
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Obras de referencia")
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.      
 </template>
 
 <script>
