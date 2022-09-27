@@ -75,14 +75,35 @@
       |✔	¿Es objetiva?<br/>
       |✔	<b>¿Proporciona información abundante?</b><br/>
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Monografías")
-        .col-md-6.mb-4.mb-md-0
-          p Son documentos de un tema específico, en la cual se desarrolla en función de la perspectiva del autor. Es muy útil por el análisis e integración que hacen sobre el tema, debido a que es abordado de manera integral. La monografía facilita la recolección de la información de una manera amplia y con gran cobertura para profundizar en el contenido.
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Obras de referencia")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.      
+    .row.mt-5
+      .col-6
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Monografías")
+            .col-md-6.mb-4.mb-md-0
+              p Son documentos de un tema específico, en la cual se desarrolla en función de la perspectiva del autor. Es muy útil por el análisis e integración que hacen sobre el tema, debido a que es abordado de manera integral. La monografía facilita la recolección de la información de una manera amplia y con gran cobertura para profundizar en el contenido.
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Obras de referencia")
+            .col-md-6.mb-4.mb-md-0
+              p Proporcionan datos específicos de una síntesis de datos relacionados entre sí. La información proviene generalmente de fuentes primarias y se puede representar a través de un esquema determinado. Ejemplos: enciclopedias, diccionarios, manuales, bases de datos bibliográficas, etc.
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Fotografías")
+            .col-md-6.mb-4.mb-md-0
+              p Generalmente complementan la información escrita ya que sirve de apoyo visual. Puede hacer referencia a diversos temas. La fotografía se emplea como un segmento auxiliar del contenido de revistas, libros, etc. Aunque también se maneja de forma independiente.
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Métodos de recolección de información")
+            .col-md-6.mb-4.mb-md-0
+              p En la recolección de información primaria en una investigación, generalmente se desarrolla la observación, encuestas o entrevistas a la muestra o población seleccionada.
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Encuesta")
+            .col-md-6.mb-4.mb-md-0
+              p Es un instrumento en la cual se registran situaciones que pueden ser observadas o se cuestiona a la persona seleccionada para el estudio. La encuesta es un método descriptivo en el que se detectan ideas, necesidades, gustos, hábitos de uso, preferencias, etc.  Utilizando procedimientos estructurados de interrogación en aras de obtener mediciones cuantitativas partiendo de la variedad de variables definidas. Estos datos posteriormente podrán ser clasificados, interpretados y analizados.
+              br
+              p Las características de una encuesta son:
+              p La encuesta representa una observación indirecta de la realidad por medio de lo que manifiestan los encuestados.
+                ul
+                li Es un método diseñado para una investigación específica.
+                li Se adapta a una aplicación masiva a través de un sistema de muestreo
+                li Es posible que la aplicación llegue a la subjetividad de la población seleccionada, lo que permitirá mayor precisión en la información obtenida 
 </template>
 
 <script>
