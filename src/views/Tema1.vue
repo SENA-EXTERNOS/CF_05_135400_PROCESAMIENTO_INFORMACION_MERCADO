@@ -53,27 +53,39 @@
     .row.mt-5
       .col-12
         img(src='@/assets/curso/temas/t1/img-3.svg' alt='img-3')
-    .row.mt-5
+    .row.mt-5.d-flex.justify-content-center.align-items-center
+      .col-8
         h4.text-center Para reunir datos primarios, es importante establecer tres elementos: identificar los métodos e instrumentos de investigación, elaborar un plan de muestreo y definir las técnicas para establecer contacto con la muestra.
-    .row.mt-5
-        .col-12 
+    .row.mt-5.d-flex.justify-content-center.align-items-center
+      .col-8 
         img(src='@/assets/curso/temas/t1/img-4.png' alt='img-4')
     .row.mt-5
-    .cajon-b.color-secundario.p-3.mb-5
-      br
-      br
-      p.mb-0 Cuando se inicia la selección de las fuentes primarias que serán utilizadas como base en el estudio de investigación, es recomendable responder a los siguientes interrogantes, que darán una mayor orientación, enfoque y precisión al estudio.
-      br
-      br
-      br
-      br
-      |✔	¿La fuente seleccionada está relacionada con el objeto de estudio? <br/>
-      |✔	¿Cómo? <br/>
-      |✔	¿Su aporte es relevante? <br/>
-      |✔	¿La fuente está actualizada? <br/>
-      |✔	¿Contribuye a que el desarrollo del estudio sea rápido?<br/>
-      |✔	¿Es objetiva?<br/>
-      |✔	<b>¿Proporciona información abundante?</b><br/>
+      .cajon-b.color-secundario.p-3
+        p.mb-0 Cuando se inicia la selección de las fuentes primarias que serán utilizadas como base en el estudio de investigación, es recomendable responder a los siguientes interrogantes, que darán una mayor orientación, enfoque y precisión al estudio.
+    .row.mt-5
+      .col-12
+        ul.lista-ul--color
+          li 
+            i.fas.fa-check
+            | ¿La fuente seleccionada está relacionada con el objeto de estudio? 
+          li 
+            i.fas.fa-check
+            | ¿Cómo? 
+          li 
+            i.fas.fa-check
+            | ¿Su aporte es relevante?
+          li 
+            i.fas.fa-check
+            | ¿La fuente está actualizada?
+          li 
+            i.fas.fa-check
+            | ¿Contribuye a que el desarrollo del estudio sea rápido
+          li 
+            i.fas.fa-check
+            | ¿Es objetiva
+          li 
+            i.fas.fa-check
+            | <b>¿Proporciona información abundante?</b>
 
     .row.mt-5
       .col-6
@@ -82,90 +94,95 @@
         p.mb-5 <b>Las fuentes primarias pueden presentarse a traves de:</b>
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Monografías")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p Son documentos de un tema específico, en la cual se desarrolla en función de la perspectiva del autor. Es muy útil por el análisis e integración que hacen sobre el tema, debido a que es abordado de manera integral. La monografía facilita la recolección de la información de una manera amplia y con gran cobertura para profundizar en el contenido.
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Obras de referencia")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p Proporcionan datos específicos de una síntesis de datos relacionados entre sí. La información proviene generalmente de fuentes primarias y se puede representar a través de un esquema determinado. Ejemplos: enciclopedias, diccionarios, manuales, bases de datos bibliográficas, etc.
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Fotografías")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p Generalmente complementan la información escrita ya que sirve de apoyo visual. Puede hacer referencia a diversos temas. La fotografía se emplea como un segmento auxiliar del contenido de revistas, libros, etc. Aunque también se maneja de forma independiente.
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Métodos de recolección de información")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p En la recolección de información primaria en una investigación, generalmente se desarrolla la observación, encuestas o entrevistas a la muestra o población seleccionada.
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Encuesta")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p Es un instrumento en la cual se registran situaciones que pueden ser observadas o se cuestiona a la persona seleccionada para el estudio. La encuesta es un método descriptivo en el que se detectan ideas, necesidades, gustos, hábitos de uso, preferencias, etc.  Utilizando procedimientos estructurados de interrogación en aras de obtener mediciones cuantitativas partiendo de la variedad de variables definidas. Estos datos posteriormente podrán ser clasificados, interpretados y analizados.
               p <b>Las características de una encuesta son:</b>
-                ul.lista-ul.mb-3
+                ul.lista-ul.my-3
                   li 
                     i.fas.fa-angle-right
-                      |La encuesta representa una observación indirecta de la realidad por medio de lo que manifiestan los encuestados.
+                    | La encuesta representa una observación indirecta de la realidad por medio de lo que manifiestan los encuestados.
                   li
-                  li 
                     i.fas.fa-angle-right
-                      |Es un método diseñado para una investigación específica
+                    | Es un método diseñado para una investigación específica
                   li
-                  li 
                     i.fas.fa-angle-right
-                      |Se adapta a una aplicación masiva a través de un sistema de muestreo.
+                    | Se adapta a una aplicación masiva a través de un sistema de muestreo.
                   li
-                  li 
+                   
                     i.fas.fa-angle-right
-                      |Es posible que la aplicación llegue a la subjetividad de la población seleccionada, lo que permitirá mayor precisión en la información obtenida.
-                  li
+                    | Es posible que la aplicación llegue a la subjetividad de la población seleccionada, lo que permitirá mayor precisión en la información obtenida.
+                  
             P <b>Las encuestas se pueden desarrollar de las siguientes formas:</b>
-              ol.lista-ol
-                li 
-                  span.text-bold 1. 
-                    |Entrevista personal
+              ol.lista-ol.my-3
                 li
-                li 
-                  span.text-bold 1. 
-                    |Entrevista por teléfono
+                  span.text-bold 1.
+                  | Entrevista personal
                 li
-                li 
-                  span.text-bold 1. 
-                    |Cuestionario por correo
+                  span.text-bold 2.
+                  | Entrevista por teléfono
                 li
-                li 
-                  span.text-bold 1. 
-                    |Observación directa.
+                  span.text-bold 3.
+                  | Cuestionario por correo
                 li
-                li 
-                  span.text-bold 1. 
-                    |Vía electrónica.
+                  span.text-bold 4.
+                  | Observación directa.
                 li
+                  span.text-bold 5.
+                  | Vía electrónica.
             
     .titulo-segundo.color-secundario.mb-5        
       h2 1.2 Información secundaria
-      p Las fuentes secundarias son aquellas que dependen de información existente, como pueden ser datos obtenidos de anuarios estadísticos, de internet, de medios de comunicación, monografías, etc.
-      p Como complemento a esta definición la  Universidad Autónoma del estado de Hidalgo, (2008) afirma en su documento ‘Fuentes de Información’ que “Este tipo de fuentes son las que ya han procesado información de una fuente primaria. El proceso de esta información se pudo dar por una interpretación, un análisis, así como la extracción y reorganización de la información de la fuente primaria” (p.3).
-    h2.text-center Ejemplos de fuentes secundarias
+    p Las fuentes secundarias son aquellas que dependen de información existente, como pueden ser datos obtenidos de anuarios estadísticos, de internet, de medios de comunicación, monografías, etc.
+    p Como complemento a esta definición la  Universidad Autónoma del estado de Hidalgo, (2008) afirma en su documento ‘Fuentes de Información’ que “Este tipo de fuentes son las que ya han procesado información de una fuente primaria. El proceso de esta información se pudo dar por una interpretación, un análisis, así como la extracción y reorganización de la información de la fuente primaria” (p.3).
+    h2.text-center.mt-5 Ejemplos de fuentes secundarias
     .row.mt-5
       .col-12 
         img(src='@/assets/curso/temas/t1/img-6.png' alt='img-6')
     .row.mt-5
-      .col-7
+      .col-6
         img(src='@/assets/curso/temas/t1/img-8.png' alt='img-8')
       .col-6
-    .cajon-b.color-secundario.p-3.mb-5
-      br
-      br
-      p.mb-0 Para emplear las fuentes de información se debe analizar los siguientes interrogantes básicos que son: 
-     
-      |✔	¿Es pertinente la información existente en la investigación? <br/>
-      |✔	¿La información se adapta a los objetivos establecidos en la investigación? <br/>
-      |✔	¿Está actualizada en relación a la vigencia del tema en estudio? <br/>
-      |✔	¿La veracidad de la fuente ha sido cuestionada por algún autor? <br/>
-      |✔	¿La información se obtuvo a través de metodologías adecuadas?<br/>
-      |✔	¿La información compromete a un público específico?<br/>
-      |✔	¿La información obtenida es ética?<br/>
-      |✔	¿Guarda objetividad?<br/>
+        .cajon-b.color-secundario.p-3
+          p.mb-0 Para emplear las fuentes de información se debe analizar los siguientes interrogantes básicos que son:
+        .row
+          .col-12
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | ¿Es pertinente la información existente en la investigación?
+              li 
+                i.fas.fa-check
+                |¿La información se adapta a los objetivos establecidos en la investigación?
+              li 
+                i.fas.fa-check
+                |¿Está actualizada en relación a la vigencia del tema en estudio?
+              li 
+                i.fas.fa-check
+                |¿La veracidad de la fuente ha sido cuestionada por algún autor?
+              li 
+                i.fas.fa-check
+                |¿La información se obtuvo a través de metodologías adecuadas
+              li 
+                i.fas.fa-check
+                |¿La información compromete a un público específico
+              li 
+                i.fas.fa-check
+                |¿La información obtenida es ética
+              li 
+                i.fas.fa-check
+                |¿Guarda objetividad?
 </template>
 
 <script>
