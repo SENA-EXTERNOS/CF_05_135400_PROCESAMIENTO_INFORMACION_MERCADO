@@ -17,7 +17,7 @@
     .row.mt-5
       .col-12
         .cajon.color-acento-contenido.p-4.mb-4
-          p Una fuente de información corresponde al origen del suministro de datos que son requeridos en una investigación para cumplir un objetivo trazado en una organización.  En su selección se recomienda organizar la información desde que se obtiene y seleccionarla de acuerdo a la utilidad establecida. Además de tener en cuenta su origen para dar los créditos respectivos si es necesario.
+          p.mb-0 Una fuente de información corresponde al origen del suministro de datos que son requeridos en una investigación para cumplir un objetivo trazado en una organización.  En su selección se recomienda organizar la información desde que se obtiene y seleccionarla de acuerdo a la utilidad establecida. Además de tener en cuenta su origen para dar los créditos respectivos si es necesario.
 
     .row.mt-5
       .col-12.text-center
@@ -26,19 +26,20 @@
       .col-12
         img(src='@/assets/curso/temas/t1/img-2.svg', alt='img2')
         .mt-5
-        
+    
     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          h2.mb-0 Según el Boletín Científico de las Ciencias Económico Administrativas del ICEA (Cruz García, 2019): 
+          h2.mb-0.text-color-acento-contenido Según el Boletín Científico de las Ciencias Económico Administrativas del ICEA (Cruz García, 2019): 
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p ‘Las fuentes de información son instrumentos para el conocimiento, acceso y búsqueda de la información, su objetivo principal es el de buscar, fijar y difundir la fuente de información implícita en cualquier soporte físico, estas se pueden catalogar desde diferentes perspectivas, sin embargo, cada autor puede elaborar su propia clasificación dependiendo su grado de información. De acuerdo con el grado de información que proporcionan, las fuentes de información se dividen en primarias, secundarias y terciarias; esta división se utiliza generalmente en el ámbito académico.’ (p.57)
+          .bloque-texto-a__texto.p-5
+            p.mb-0 ‘Las fuentes de información son instrumentos para el conocimiento, acceso y búsqueda de la información, su objetivo principal es el de buscar, fijar y difundir la fuente de información implícita en cualquier soporte físico, estas se pueden catalogar desde diferentes perspectivas, sin embargo, cada autor puede elaborar su propia clasificación dependiendo su grado de información. De acuerdo con el grado de información que proporcionan, las fuentes de información se dividen en primarias, secundarias y terciarias; esta división se utiliza generalmente en el ámbito académico.’ (p.57)
 
     p.mb-5 Las fuentes de información también son una herramienta para el razonamiento, análisis, búsqueda y entrada de información, como punto de partida para generación de hipótesis, conclusiones, informes, que pueden llevar a la solución de problemas o exploración de respuestas organizacionales. La selección de las mismas dependerá de la disponibilidad y el acceso de la información. 
     p.mb-5 Esto requiere un proceso objetivo y consecuente con los resultados que se estiman obtener. Es por ello necesario considerar sus características para lograr la mayor adaptación en los resultados. 
-
-    h5.text-center Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
+    .row.d-flex.justify-content-center.align-items-center
+      .col-8
+        .subtitle-custom.text-center Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
     .row.mt-5
       .col-12
         img(src='@/assets/curso/temas/t1/caracteristicas.svg' alt='caracteristicas')
@@ -55,7 +56,7 @@
         img(src='@/assets/curso/temas/t1/img-3.svg' alt='img-3')
     .row.mt-5.d-flex.justify-content-center.align-items-center
       .col-8
-        h4.text-center Para reunir datos primarios, es importante establecer tres elementos: identificar los métodos e instrumentos de investigación, elaborar un plan de muestreo y definir las técnicas para establecer contacto con la muestra.
+        .subtitle-custom.text-center Para reunir datos primarios, es importante establecer tres elementos: identificar los métodos e instrumentos de investigación, elaborar un plan de muestreo y definir las técnicas para establecer contacto con la muestra.
     .row.mt-5.d-flex.justify-content-center.align-items-center
       .col-8 
         img(src='@/assets/curso/temas/t1/img-4.png' alt='img-4')
@@ -91,7 +92,7 @@
       .col-6
         img(src='@/assets/curso/temas/t1/img-7.png' alt='img-7')
       .col-6
-        p.mb-5 <b>Las fuentes primarias pueden presentarse a traves de:</b>
+        p.mb-3.subtitle-custom Las fuentes primarias pueden presentarse a través de:
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Monografías")
             .col-md-12.mb-4.mb-md-0
@@ -141,12 +142,12 @@
                 li
                   span.text-bold 5.
                   | Vía electrónica.
-            
+    Separador.mb-5       
     .titulo-segundo.color-secundario.mb-5        
       h2 1.2 Información secundaria
     p Las fuentes secundarias son aquellas que dependen de información existente, como pueden ser datos obtenidos de anuarios estadísticos, de internet, de medios de comunicación, monografías, etc.
     p Como complemento a esta definición la  Universidad Autónoma del estado de Hidalgo, (2008) afirma en su documento ‘Fuentes de Información’ que “Este tipo de fuentes son las que ya han procesado información de una fuente primaria. El proceso de esta información se pudo dar por una interpretación, un análisis, así como la extracción y reorganización de la información de la fuente primaria” (p.3).
-    h2.text-center.mt-5 Ejemplos de fuentes secundarias
+    .subtitle-custom.text-center.mt-5 Ejemplos de fuentes secundarias
     .row.mt-5
       .col-12 
         img(src='@/assets/curso/temas/t1/img-6.png' alt='img-6')
@@ -154,8 +155,8 @@
       .col-6
         img(src='@/assets/curso/temas/t1/img-8.png' alt='img-8')
       .col-6
-        .cajon-b.color-secundario.p-3
-          p.mb-0 Para emplear las fuentes de información se debe analizar los siguientes interrogantes básicos que son:
+        .cajon-b.color-secundario.p-3.mb-4
+          p.mb-0.text-bold Para emplear las fuentes de información se debe analizar los siguientes interrogantes básicos que son:
         .row
           .col-12
             ul.lista-ul--color
