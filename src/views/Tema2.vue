@@ -36,6 +36,9 @@
       .col-6
         p.text-bold El método Delphi consiste en reunir a expertos de diferentes disciplinas para lograr dar respuesta o solucionar un problema determinado, a través de la lluvia de ideas que se genere en esa reunión.
     .row.d-flex.justify-content-center.align-items-center.mt-5
+      .col-4
+        img(src='@/assets/curso/temas/t2/img-9.png', alt='img9')
+    .row.d-flex.justify-content-center.align-items-center.mt-5
       .col-8
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
@@ -57,7 +60,14 @@
             p Comunidades Online
     .titulo-segundo.color-secundario.mb-5
       h2 2.2 Cuantitativos
-
+    p.mb-5 La investigación cuantitativa implica el análisis de datos cuantificables exactos. Tiene por objeto recopilar y analizar información de tipo numérica basada en técnicas matemáticas y estadísticas, las cuales son utilizadas, generalmente, para determinar cantidades, frecuencias de consumos, precios, tamaños, contenidos, etc. Estas técnicas son requeridas en estudios de mercado para diversos propósitos como: la innovación, el relanzamiento, el posicionamiento, la diversificación, la generación de valor agregado, en productos y servicios con propósitos de mejora continua en las organizaciones.
+    p.mb-5 El estudio de los datos cuantitativos requiere una serie de etapas, que conlleven al logro de los objetivos propuestos. A continuación, se presentan las etapas: 
+    .row.d-flex.justify-content-center.align-items-center.mt-5
+      .col-8
+        img(src='@/assets/curso/temas/t2/img-8.png', alt='img-8')
+    .row.mt-5
+      .cajon-b.color-secundario.p-3
+        p.mb-0 En la recolección de datos cuantitativos se pueden presentar errores generados en las anotaciones, tabulaciones o clasificaciones incorrectas. Estas anomalías son fácilmente identificables cuando por ejemplo se detectan repeticiones de algunos números, o máximos y mínimos extremos. Este tipo de errores se puede eliminar debido a que carecen de representatividad en las medidas utilizadas. 
 </template>
 
 <script>
