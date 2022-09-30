@@ -57,9 +57,7 @@
         p.mb-5 La validación de datos hace referencia al proceso que se realiza para evitar la introducción de información  incorrecta en un estudio.
         p Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, “’restricciones de validación’ o ‘rutinas de comprobación’.
 
-      .col-md.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-         
+      .col-md.tarjeta.color-secundario.p-5         
         p Existen algunos métodos que son útiles para este proceso, como las siguientes:
         ul.lista-ul--color
           li 

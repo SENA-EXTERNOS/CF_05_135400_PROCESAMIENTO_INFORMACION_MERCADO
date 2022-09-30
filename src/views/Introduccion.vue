@@ -22,13 +22,12 @@
           p.mb-0 Este componente formativo se elabora con la intención de brindar herramientas para que los coordinadores, supervisores, técnicos, mandos medios, e, incluso miembros de juntas directivas de las empresas, puedan obtener de manera fácil información a través de estudios de mercadeo y clasificarla,  contribuyendo de esta manera en el crecimiento organizacional de las empresas y la generación de valor agregado a sus productos y servicios.   
 
     .row.mt-5
-      .col-7
+      .col-sm-12.col-md-6
         p Existen factores que generan deficiencia en la planeación organizacional incidiendo negativamente en el mercadeo de sus productos y servicios, ocasionando desventajas competitivas frente a los actuales mercados globalizados. Esto genera la necesidad de fortalecer sus procesos de marketing que contribuyan a la transformación de estrategias integrales para impactar el incremento de la efectividad en sus operaciones. 
         p.mt-3 Lo invitamos a que visualice el video introductorio que se encuentra a continuación donde conocerá de manera general todos los temas que se desarrollarán en este componente formativo.
         p.mt-3 <b>Muchos éxitos en este proceso de aprendizaje.</b>
-      .col-5
+      .col-sm-12.col-md-6
         img(src='@/assets/curso/introduccion/img-2.png', alt='img2')
-    
     .row.mt-5
       .col-12
         figure
