@@ -16,7 +16,7 @@
 
     .row.mt-5
       .col-12
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4.col-sm-12
           p.mb-0 Una fuente de información corresponde al origen del suministro de datos que son requeridos en una investigación para cumplir un objetivo trazado en una organización.  En su selección se recomienda organizar la información desde que se obtiene y seleccionarla de acuerdo a la utilidad establecida. Además de tener en cuenta su origen para dar los créditos respectivos si es necesario.
 
     .row.mt-5
@@ -27,7 +27,7 @@
         img(src='@/assets/curso/temas/t1/img-2.svg', alt='img2')
         .mt-5
     
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           h2.mb-0.text-color-acento-contenido Según el Boletín Científico de las Ciencias Económico Administrativas del ICEA (Cruz García, 2019): 
