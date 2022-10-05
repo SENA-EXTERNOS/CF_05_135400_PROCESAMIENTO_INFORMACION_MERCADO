@@ -48,9 +48,14 @@
     
     .titulo-segundo.color-secundario.mb-5
       h2 1.1 Información primaria
-    .row.mt-5
-      .col-12
-        img(src='@/assets/curso/temas/t1/infoPrimaria.svg' alt='infoPrimaria')
+    .row.mt-6
+      .col-4.mt-5
+        p.mt-5 Las fuentes primarias corresponden a aquellas en las que los datos han sido tomados directamente de la población o muestra seleccionada como objeto de estudio, es decir la recopilación de datos se obtienen directamente del objeto de estudio. Además, las fuentes primarias pueden subdividirse en las siguientes:
+      .col-6.d-inline-flex.mb-5
+        img(src='@/assets/curso/temas/t1/img-10.png' alt='img-10')
+        img.position-relative.bottom-60px.right-340px(src='@/assets/curso/temas/t1/img-11.png' alt='img-11')
+      .col-4
+        p hghgk
     .row.mt-5
       .col-12
         img(src='@/assets/curso/temas/t1/img-3.svg' alt='img-3')
