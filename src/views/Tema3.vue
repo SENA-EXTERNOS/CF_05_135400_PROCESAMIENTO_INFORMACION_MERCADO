@@ -33,10 +33,9 @@
       .row.justify-content-around.align-items-center
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Título del recurso
-              p.text-small La confidencialidad de la información garantiza que aquella que es obtenida en un proceso de recolección de información será protegida, al no ser divulgada sin autorización de una persona. Para ello existen reglas, en las cuales actualmente la ISO 27001 (2013) la establece como un tipo de riesgo sensible que en algunos casos incluye datos financieros, operativos, sobre empleados, clientes, proveedores, 
-              p.text-small Según la ISO 27001 (2013) este tipo de riesgos está dentro de la clasificación CID (Confidencialidad, Integridad y disponibilidad). En la cual la norma establece una guía basada en el ciclo PHVA para proporcionar un enfoque en la mejora continua.
+            .col.mb-sm-0
+              p.text La confidencialidad de la información garantiza que aquella que es obtenida en un proceso de recolección de información será protegida, al no ser divulgada sin autorización de una persona. Para ello existen reglas, en las cuales actualmente la ISO 27001 (2013) la establece como un tipo de riesgo sensible que en algunos casos incluye datos financieros, operativos, sobre empleados, clientes, proveedores, 
+              p.text Según la ISO 27001 (2013) este tipo de riesgos está dentro de la clasificación CID (Confidencialidad, Integridad y disponibilidad). En la cual la norma establece una guía basada en el ciclo PHVA para proporcionar un enfoque en la mejora continua.
  
             .col-sm-auto
               img.mb-5(src='@/assets/curso/temas/t3/img-3.svg', alt='img2')
