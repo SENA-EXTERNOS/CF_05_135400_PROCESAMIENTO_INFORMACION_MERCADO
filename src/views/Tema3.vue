@@ -23,22 +23,19 @@
     .row.d-flex.justify-content-center.align-items-center
       .col-6
         .subtitle-custom.text-center.mt-5 Clasificación de la información
-          img.mb-5(src='@/assets/curso/temas/t3/img-2.svg', alt='img2')
+          img.mb-5(src='@/assets/curso/temas/t3/img-2.png', alt='img2')
 
-    .titulo-segundo.color-secundario.mb-5
+    .titulo-segundo.color-secundario
       h2 3.2 Confidencialidad de la información
-
-
-    .tarjeta.confidencialidad.p-3.mb-5
+    .tarjeta.confidencialidad.p-3
       .row.justify-content-around.align-items-center
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-sm-0
+            .col
               p.text La confidencialidad de la información garantiza que aquella que es obtenida en un proceso de recolección de información será protegida, al no ser divulgada sin autorización de una persona. Para ello existen reglas, en las cuales actualmente la ISO 27001 (2013) la establece como un tipo de riesgo sensible que en algunos casos incluye datos financieros, operativos, sobre empleados, clientes, proveedores, 
               p.text Según la ISO 27001 (2013) este tipo de riesgos está dentro de la clasificación CID (Confidencialidad, Integridad y disponibilidad). En la cual la norma establece una guía basada en el ciclo PHVA para proporcionar un enfoque en la mejora continua.
- 
             .col-sm-auto
-              img.mb-5(src='@/assets/curso/temas/t3/img-3.svg', alt='img2')
+              img(src='@/assets/curso/temas/t3/img-3.svg', alt='img3')
 
     .row.mt-5.mb-5
       .col-12
@@ -56,7 +53,7 @@
         p.mb-5 La validación de datos hace referencia al proceso que se realiza para evitar la introducción de información  incorrecta en un estudio.
         p Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, “’restricciones de validación’ o ‘rutinas de comprobación’.
 
-      .col-md.tarjeta.color-secundario.p-5         
+      .col-md.tarjeta.color-acento-contenido.p-5         
         p Existen algunos métodos que son útiles para este proceso, como las siguientes:
         ul.lista-ul--color
           li 
