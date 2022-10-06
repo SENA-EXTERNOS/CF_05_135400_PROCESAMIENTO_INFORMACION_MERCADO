@@ -27,9 +27,9 @@
     .titulo-segundo.color-secundario.mb-5
       h2 2.1 Cualitativos
     .row.mt-5
-      .col-4
+      .col-4.col-sm-12
         img(src='@/assets/curso/temas/t2/img-2.png', alt='img2')
-      .col-8
+      .col-8.col-sm-12
         p La recopilación de datos cualitativos se emplea en aquellos estudios en los cuales no es posible cuantificar la información o cuando no se dispone de ella. Generalmente las técnicas utilizadas para su recolección están dadas para generar predicciones basadas en opiniones individuales que sirvan como base de estudio para una investigación más profunda.
         p.mt-3 En algunos casos la experiencia y conocimientos de expertos contribuyen en la solución de problemas en la obtención de información relevante de algún segmento de mercado, además facilita la detección de factores negativos en un estudio o establece pronósticos en las tendencias de mercados.
     p.mt-5 Una de las técnicas más empleada es el método Delphi, en el cual se aplican las siguientes etapas:
