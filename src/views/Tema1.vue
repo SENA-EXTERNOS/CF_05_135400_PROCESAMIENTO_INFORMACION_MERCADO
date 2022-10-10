@@ -49,28 +49,29 @@
     .titulo-segundo.color-secundario.mb-5
       h2 1.1 Información primaria
     .row.mb-5
-      .col-sm-4
-        p Las fuentes primarias corresponden a aquellas en las que los datos han sido tomados directamente de la población o muestra seleccionada como objeto de estudio, es decir la recopilación de datos se obtienen directamente del objeto de estudio. Además, las fuentes primarias pueden subdividirse en las siguientes: 
-      .col-sm-4.col-lg-3.mb-4.mb-lg-0
-        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        //- estas clases tambien tienen un modificador --borde
+      .col-sm-6.col-lg-4
+        p.mt-5 Las fuentes primarias corresponden a aquellas en las que los datos han sido tomados directamente de la población o muestra seleccionada como objeto de estudio, es decir la recopilación de datos se obtienen directamente del objeto de estudio. Además, las fuentes primarias pueden subdividirse en las siguientes: 
+      .col-sm-6.col-lg-4.mb-0.mb-lg-0
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-7
+            .col-6
               figure
                 img(src='@/assets/curso/temas/t1/img-11.png' alt='img-11')
-
-      .col-sm-4.col-lg-3.mb-4.mb-lg-0
-        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        //- estas clases tambien tienen un modificador --borde
+        .row.justify-content-left.mb-3
+          .col-7
+            p.text-left <b>Observación directa:</b>
+            p.text-left No se emplean formatos en la recolección.
+      .col-sm-6.col-lg-3
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-7
+            .col-6
               figure
                 img(src='@/assets/curso/temas/t1/img-12.png' alt='img-12')
-
+        .row.justify-content-left.mb-3
+          .col-7
+            p.text-left <b>Observación indirecta:</b>
+            p.text-left Se emplean cuestionarios, encuestas y listas de chequeo.
+            
     .row.mt-5
       .col-12
         img(src='@/assets/curso/temas/t1/img-3.svg' alt='img-3')
