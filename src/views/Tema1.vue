@@ -52,11 +52,8 @@
       .col-sm-6.col-lg-4
         p.mt-5 Las fuentes primarias corresponden a aquellas en las que los datos han sido tomados directamente de la población o muestra seleccionada como objeto de estudio, es decir la recopilación de datos se obtienen directamente del objeto de estudio. Además, las fuentes primarias pueden subdividirse en las siguientes: 
       .col-sm-6.col-lg-4.mb-0.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/t1/img-11.png' alt='img-11')
+        .row.justify-content-center.mb-3
+            .col-6.img-andrea(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/img-11.png')})`}")
         .row.justify-content-left.mb-3
           .col-7
             p.text-left <b>Observación directa:</b>
