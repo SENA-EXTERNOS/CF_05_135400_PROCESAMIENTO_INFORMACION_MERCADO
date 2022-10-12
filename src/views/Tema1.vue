@@ -39,10 +39,10 @@
     p.mb-5 Esto requiere un proceso objetivo y consecuente con los resultados que se estiman obtener. Es por ello necesario considerar sus características para lograr la mayor adaptación en los resultados. 
     .row.d-flex.justify-content-center.align-items-center
       .col-8
-        .subtitle-custom.text-center Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
+        .subtitle-custom.text-left Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales. 
     .row.mt-5
       .col-12
-        img(src='@/assets/curso/temas/t1/caracteristicas.svg' alt='caracteristicas')
+        img(src='@/assets/curso/temas/t1/caracteristicas.png' alt='caracteristicas')
 
     Separador.mb-5
     
@@ -52,22 +52,20 @@
       .col-sm-6.col-lg-4
         p.mt-5 Las fuentes primarias corresponden a aquellas en las que los datos han sido tomados directamente de la población o muestra seleccionada como objeto de estudio, es decir la recopilación de datos se obtienen directamente del objeto de estudio. Además, las fuentes primarias pueden subdividirse en las siguientes: 
       .col-sm-6.col-lg-4.mb-0.mb-lg-0
-        .row.justify-content-center.mb-3
-            .col-6.img-andrea(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/img-11.png')})`}")
-        .row.justify-content-left.mb-3
+        .row.d-flex-nowrap.mb-3
+            .col-6.img-1(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/img-11.png')})`}")
+        .row.mb-3.d-flex-nowrap
           .col-7
             p.text-left <b>Observación directa:</b>
             p.text-left No se emplean formatos en la recolección.
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/t1/img-12.png' alt='img-12')
+      .col-sm-6.col-lg-4.mb-0.mb-lg-0
+        .row.mb-3
+            .col-6.img-2(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/img-13.png')})`}")
         .row.justify-content-left.mb-3
-          .col-7
-            p.text-left <b>Observación indirecta:</b>
-            p.text-left Se emplean cuestionarios, encuestas y listas de chequeo.
+          .col
+            p.text-left <b>Observación directa:</b>
+            p.text-left No se emplean formatos en la recolección.
+            
             
     .row.mt-5
       .col-12
@@ -80,7 +78,7 @@
         img(src='@/assets/curso/temas/t1/img-4.png' alt='img-4')
     .row.mt-5
       .cajon-b.color-secundario.p-3
-        p.mb-0 Cuando se inicia la selección de las fuentes primarias que serán utilizadas como base en el estudio de investigación, es recomendable responder a los siguientes interrogantes, que darán una mayor orientación, enfoque y precisión al estudio.
+        p.mb-0 <B>Cuando se inicia la selección de las fuentes primarias que serán utilizadas como base en el estudio de investigación, es recomendable responder a los siguientes interrogantes, que darán una mayor orientación, enfoque y precisión al estudio.</B>
     .row.mt-5
       .col-12
         ul.lista-ul--color
@@ -98,10 +96,10 @@
             | ¿La fuente está actualizada?
           li 
             i.fas.fa-check
-            | ¿Contribuye a que el desarrollo del estudio sea rápido
+            | ¿Contribuye a que el desarrollo del estudio sea rápido?
           li 
             i.fas.fa-check
-            | ¿Es objetiva
+            | ¿Es objetiva?
           li 
             i.fas.fa-check
             | <b>¿Proporciona información abundante?</b>
@@ -192,13 +190,13 @@
                 |¿La veracidad de la fuente ha sido cuestionada por algún autor?
               li 
                 i.fas.fa-check
-                |¿La información se obtuvo a través de metodologías adecuadas
+                |¿La información se obtuvo a través de metodologías adecuadas?
               li 
                 i.fas.fa-check
-                |¿La información compromete a un público específico
+                |¿La información compromete a un público específico?
               li 
                 i.fas.fa-check
-                |¿La información obtenida es ética
+                |¿La información obtenida es ética?
               li 
                 i.fas.fa-check
                 |¿Guarda objetividad?

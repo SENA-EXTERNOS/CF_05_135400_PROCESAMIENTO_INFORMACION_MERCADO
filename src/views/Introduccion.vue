@@ -23,8 +23,8 @@
 
     .row.mt-5
       .col-sm-12.col-md-6
-        p Existen factores que generan deficiencia en la planeación organizacional incidiendo negativamente en el mercadeo de sus productos y servicios, ocasionando desventajas competitivas frente a los actuales mercados globalizados. Esto genera la necesidad de fortalecer sus procesos de marketing que contribuyan a la transformación de estrategias integrales para impactar el incremento de la efectividad en sus operaciones. 
-        p.mt-3 Lo invitamos a que visualice el video introductorio que se encuentra a continuación donde conocerá de manera general todos los temas que se desarrollarán en este componente formativo.
+        p Existen factores que generan deficiencia en la planeación organizacional incidiendo negativamente en el mercadeo de sus productos y servicios, ocasionando desventajas competitivas frente a los actuales mercados globalizados. Esto genera la necesidad de fortalecer sus procesos de <i>marketing</i> que contribuyan a la transformación de estrategias integrales para impactar el incremento de la efectividad en sus operaciones. 
+        p.mt-3 En la conformación de este programa, se tomaron en cuenta los conceptos de varios autores con pleno conocimiento sobre el procesamiento de datos, quienes han sido citados y referenciados para cumplir con los fines educativos que se han planteado desde el inicio del mismo. Se espera que el documento sea útil para todos, más allá de quienes han sido mencionados como objetivo inicial.
         p.mt-3 <b>Muchos éxitos en este proceso de aprendizaje.</b>
       .col-sm-12.col-md-6
         img(src='@/assets/curso/introduccion/img-2.png', alt='img2')

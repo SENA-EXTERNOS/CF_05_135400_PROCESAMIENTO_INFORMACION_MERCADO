@@ -19,7 +19,7 @@
         p.mb-0 La ISO 27001 (2013), establece un Sistema de Gestión de la Seguridad en Información, convirtiéndose en una guía para el manejo adecuado de los datos en cualquier tipo de organización.
           br
           br
-      | Según esta norma, existen diferentes criterios para clasificar la información, uno de los más empleados está basado en la confidencialidad de la información. Para establecer una adecuada categorización , es recomendable llevar a cabo los siguientes pasos:
+      | Según esta norma, existen diferentes criterios para clasificar la información, uno de los más empleados está basado en la confidencialidad de la información. Para establecer una adecuada categorización, es recomendable llevar a cabo los siguientes pasos:
     .row.d-flex.justify-content-center.align-items-center
       .col-6
         .subtitle-custom.text-center.mt-5 Clasificación de la información
@@ -49,13 +49,12 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-acento-botones.p-5
         .row.justify-content-center.mb-4
-          
-        p.mb-5 La validación de datos hace referencia al proceso que se realiza para evitar la introducción de información  incorrecta en un estudio.
-        p Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, “’restricciones de validación’ o ‘rutinas de comprobación’.
+          p.bloque-texto-m1 La validación de datos hace referencia al proceso que se realiza para evitar la introducción de información  incorrecta en un estudio.
+          p.bloque-texto-m1 Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, “’restricciones de validación’ o ‘rutinas de comprobación’.
 
-      .col-md.tarjeta.color-acento-contenido.p-5         
-        p Existen algunos métodos que son útiles para este proceso, como las siguientes:
-        ul.lista-ul--color
+      .col-md.tarjeta.color-acento-contenido.p-5       
+        p.bloque-texto-m2 Existen algunos métodos que son útiles para este proceso, como las siguientes:
+        ul.bloque-texto-m2.lista-ul
           li 
             i.fas.fa-check
             | Formato de verificación.

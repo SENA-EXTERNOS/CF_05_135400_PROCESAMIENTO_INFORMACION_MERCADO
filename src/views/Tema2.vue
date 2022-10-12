@@ -33,7 +33,7 @@
         p.mt-3 En algunos casos la experiencia y conocimientos de expertos contribuyen en la solución de problemas en la obtención de información relevante de algún segmento de mercado, además facilita la detección de factores negativos en un estudio o establece pronósticos en las tendencias de mercados.
     p.mt-5 Una de las técnicas más empleada es el método Delphi, en el cual se aplican las siguientes etapas:
     TabsB.color-acento-contenido.mt-4
-      .py-4.py-md-5(titulo="Se realiza la selección de los expertos." :icono="require('@/assets/curso/temas/t2/img-3.svg')")
+      .py-4.py-md-5(titulo="Se realiza la selección de los expertos." :icono="require('@/assets/curso/temas/t2/img-3.png')")
       .py-4.py-md-5(titulo="Se realiza la entrevista." :icono="require('@/assets/curso/temas/t2/img-4.svg')")
       .py-4.py-md-5(titulo="Se obtienen respuestas." :icono="require('@/assets/curso/temas/t2/img-5.svg')")
       .py-4.py-md-5(titulo="Se obtienen resultados." :icono="require('@/assets/curso/temas/t2/img-6.svg')")
@@ -60,9 +60,9 @@
           .tarjeta.color-primario.p-3(x="25%" y="54%" numero="5")
             p.text-center.mb-0.text-bold Documentales
           .tarjeta.color-primario.p-3(x="50%" y="54%" numero="6")
-            p.text-center.mb-0.text-bold Focus Groups
+            p.text-center.mb-0.text-bold <i>Focus Groups</i>
           .tarjeta.color-primario.p-3(x="75%" y="54%" numero="7")
-            p.text-center.mb-0.text-bold Comunidades Online
+            p.text-center.mb-0.text-bold Comunidades <i>Online</i>
     Separador.my-2
     .titulo-segundo.color-secundario.mb-5
       h2 2.2 Cuantitativos
