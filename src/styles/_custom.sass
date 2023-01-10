@@ -96,6 +96,57 @@
   .bloque-texto-a.color-acento-contenido::before 
     background-color: $color-acento-botones;
 
+.height-tarjeta
+    height: 340px
+
+.bg1-tarjeta
+  background-color: #CFE8FC !important
+
+.bg2-tarjeta
+  background-color: #EAD1EE !important
+
+//Estilos del catalogo
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta2-tema1:before
+    background: #FEDC72
+    
+.bgr-tarjeta2-tema1
+    background: #FFF6DB
+
+.bgr-tarjeta1-tema1
+    background: #E2DAFC
+
+.bgr-tarjeta1-tema1:before
+    background: #8C6DF2
+
 
 
 

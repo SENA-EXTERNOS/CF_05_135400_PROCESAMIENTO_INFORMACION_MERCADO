@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Procesamiento de la información de mercados")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Estimado aprendiz, se le invita a ver el mapa conceptual, donde encontrará una síntesis de todos los elementos desarrollados en este componente formativo acerca de la temática ‘Clasificación de la información recolectada’.
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

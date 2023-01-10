@@ -10,10 +10,11 @@
             img(src="@/assets/template/arrastrar-soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica. Arrastrar y soltar
-        p.mb-4 #[b Objetivo] Apreciado participante, a continuación, encontrará una actividad didáctica, para afianzar los conceptos y aprendizajes del componente de formación.
-        p.mb-4 Esta es una actividad de “Arrastrar y Soltar'', donde encontrará 2 columnas, la “Columna A” - presenta las definiciones vistas a lo largo del componente, y la “Columna B” entrega los posibles conceptos. Deberá asociar las definiciones con los conceptos correspondientes. Debe seleccionar de la Columna B, arrastrar y soltar la respuesta relacionada con las definiciones dadas en la Columna A.
-        p.mb-4 ¡Adelante y mucho ánimo!
+          h2  Clasificación de la información recolectada
+        p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+
+        p.mb-4 De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+
 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

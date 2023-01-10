@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Clasificación de la información recolectada',
     descripcionCurso:
-      'Las empresas deben responder al mundo globalizado que exige permanentemente una alta competitividad, es importante el reconocimiento de sus mercados a través de estudios que generen información precisa sobre las tendencias, necesidades, etc. Para ello es necesario la clasificación de la información obtenida en los estudios de recolección de información que permiten establecer resultados sobre el objeto de estudio.',
+      'Las empresas deben responder al mundo globalizado que exige permanentemente una alta competitividad. Es importante el reconocimiento de sus mercados a través de indagaciones que generen información precisa sobre las tendencias, necesidades, sectores, públicos, etc. La clasificación de la información obtenida en los estudios de recolección de información, permite establecer resultados sobre el objeto estudiado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -82,26 +82,6 @@ export default {
         numero: '3',
         titulo: 'Seguridad de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Clasificación',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Confidencialidad de la información',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Validación de datos',
-            hash: 't_3_3',
-          },
-        ],
       },
     ],
     subMenu: [
