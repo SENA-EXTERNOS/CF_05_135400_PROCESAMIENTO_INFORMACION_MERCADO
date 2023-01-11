@@ -6,6 +6,10 @@
       .titulo-principal__numero
         span 3
       h1 Seguridad de datos
+
+    .row.mt-3
+      p La seguridad de la información es el grupo de medidas preventivas que permiten proteger la información recolectada en un estudio de investigación de mercado, intentando conservar la confidencialidad de datos obtenidos.
+
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t3/img-1.png')})`}")
@@ -22,7 +26,11 @@
     .row.d-flex.justify-content-center.align-items-center
       .col-6
         .subtitle-custom.text-center.mt-5 Clasificación de la información
-          img.mb-5(src='@/assets/curso/temas/t3/img-2.png', alt='img2')
+          
+
+    .row.d-flex.justify-content-center.align-items-center.mt-3
+      .col-10
+        img.mb-5(src='@/assets/curso/temas/t3/img2.svg', alt='img2')
 
     .row.mt-5
       h3 Confidencialidad de la información

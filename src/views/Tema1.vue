@@ -66,13 +66,13 @@
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg2-tarjeta.p-4.height-tarjeta
           .row.justify-content-center.mb-3
-            .col-5
+            .col-6
               figure
                 img(src='@/assets/curso/temas/t1/img5.svg', alt='Texto que describa la imagen')
 
           h3.text-center Fuentes de observación indirecta
           p.text-small.text-center Se emplean cuestionarios, encuestas y listas de chequeo.
-             
+             z
             
     .row.mt-5
       .col-12
@@ -162,7 +162,7 @@
                     | La encuesta representa una observación indirecta de la realidad por medio de lo que manifiestan los encuestados.
                   li
                     i.fas.fa-angle-right
-                    | Es un método diseñado para una investigación específica
+                    | Es un método diseñado para una investigación específica.
                   li
                     i.fas.fa-angle-right
                     | Se adapta a una aplicación masiva a través de un sistema de muestreo.

@@ -84,8 +84,8 @@
 
 
     .row.d-flex.justify-content-center.align-items-center.mt-5
-      .col-8
-        img(src='@/assets/curso/temas/t2/img-8.png', alt='img-8')
+      .col-10
+        img(src='@/assets/curso/temas/t2/img8.svg', alt='img-8')
 
 
     .row.justify-content-around.align-items-center.time-line-rediect.mt-3
