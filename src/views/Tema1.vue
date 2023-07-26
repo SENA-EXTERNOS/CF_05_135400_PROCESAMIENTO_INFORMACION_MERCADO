@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El comienzo de una investigación de mercados en una empresa, cuya la finalidad es aportar valor y crecimiento a los intereses de la misma, en relación a los productos y servicios que presta, es imprescindible realizar una elección adecuada de fuentes de información que genere datos oportunos y confiables, ya que de esto dependerá en gran medida el éxito del estudio.
+        p.mb-0 El comienzo de una investigación de mercados en una empresa, cuya finalidad es aportar valor y crecimiento a los intereses de la misma, en relación a los productos y servicios que presta, es imprescindible realizar una elección adecuada de fuentes de información que genere datos oportunos y confiables, ya que de esto dependerá en gran medida el éxito del estudio.
 
     .row.mt-5
       .col-12
@@ -38,8 +38,7 @@
         
     .row.mt-5
       p Esto requiere un proceso objetivo y consecuente con los resultados que se estiman obtener. Es por ello necesario considerar sus características para lograr la mayor adaptación en los resultados.
-
-      p Las características más destacadas son: la variabilidad de la información, la solución de problemas y la adaptación a las necesidades actuales.       
+    
 
     .row.mt-5
       .col-12

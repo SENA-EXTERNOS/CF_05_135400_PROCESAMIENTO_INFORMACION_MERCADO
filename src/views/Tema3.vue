@@ -23,12 +23,9 @@
 
       p Según la ISO 27001 (2013), existen diferentes criterios para clasificar la información; uno de los más empleados está basado en la confidencialidad de la información. Para establecer una adecuada categorización, es recomendable llevar a cabo los siguientes pasos:
 
-    .row.d-flex.justify-content-center.align-items-center
-      .col-6
-        .subtitle-custom.text-center.mt-5 Clasificación de la información
-          
+        
 
-    .row.d-flex.justify-content-center.align-items-center.mt-3
+    .row.d-flex.justify-content-center.align-items-center.mt-5
       .col-10
         img.mb-5(src='@/assets/curso/temas/t3/img2.svg', alt='img2')
 
