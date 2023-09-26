@@ -14,7 +14,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t3/img-1.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Tiene un impacto relevante en relación a su privacidad, lo que puede generar efectos secundarios contraproducentes en el mal manejo de la información recolectada. El medio de la seguridad de la información ha trascendido y evolucionado de manera considerable desde la segunda guerra mundial, convirtiéndose en un asunto de gran importancia en las organizaciones en general. 
+        p.mb-0 Tiene un impacto relevante en relación a su privacidad, lo que puede generar efectos secundarios contraproducentes en el mal manejo de la información recolectada. El medio de la seguridad de la información ha trascendido y evolucionado de manera considerable desde la Segunda Guerra Mundial, convirtiéndose en un asunto de gran importancia en las organizaciones en general. 
 
     .row.mt-5
       p A su vez, ha dado la oportunidad de crear líneas de especialización enfocadas a auditorías en los sistemas de información, gestión de seguridad en la información, etc.
@@ -27,7 +27,7 @@
 
     .row.d-flex.justify-content-center.align-items-center.mt-5
       .col-10
-        img.mb-5(src='@/assets/curso/temas/t3/img2.svg', alt='img2')
+        img.mb-5(src='@/assets/curso/temas/t3/1.svg', alt='img2')
 
     .row.mt-5
       h3 Confidencialidad de la información
@@ -60,7 +60,7 @@
     .row.mt-3
       p La validación de datos hace referencia al proceso que se realiza para evitar la introducción de información incorrecta en un estudio.
 
-      p Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, “’restricciones de validación’ o ‘rutinas de comprobación’.
+      p Esto exige un proceso de aseguramiento para la exactitud de lo registrado. Por lo tanto, se trata de un proceso que asegura el ingreso correcto de datos, además de que sean útiles, de acuerdo con el propósito del estudio.  Esto se consigue mediante las conocidas ‘reglas de validación’, ’restricciones de validación’ o ‘rutinas de comprobación’.
 
     .row.mt-3
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5

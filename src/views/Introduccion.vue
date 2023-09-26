@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/introduccion/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se brindar herramientas para que los coordinadores, supervisores, técnicos, mandos medios, e, incluso miembros de juntas directivas de las empresas, puedan obtener de manera fácil información a través de estudios de mercadeo y clasificarla, contribuyendo de esta manera en el crecimiento organizacional de las empresas y la generación de valor agregado a sus productos y servicios.
+        p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se brindarán herramientas para que los coordinadores, supervisores, técnicos, mandos medios, e, incluso miembros de juntas directivas de las empresas, puedan obtener de manera fácil información a través de estudios de mercadeo y clasificarla, contribuyendo de esta manera en el crecimiento organizacional de las empresas y la generación de valor agregado a sus productos y servicios.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-4
